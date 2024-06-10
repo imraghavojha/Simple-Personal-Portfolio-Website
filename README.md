@@ -2,7 +2,9 @@
 
 This repository is my digital playground, showcasing my HTML and CSS skills for a personal portfolio website.
 
+-------------------------------------------------------------------------------------------------------------
 ![](/assets/website.png)
+-------------------------------------------------------------------------------------------------------------
 
 ## Overview
 
