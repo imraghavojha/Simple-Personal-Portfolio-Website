@@ -431,3 +431,90 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+
+
+/* Dark mode styles */
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --section-bg: #2d2d2d;
+  --border-color: #404040;
+}
+
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: rgb(85, 85, 85);
+  --section-bg: #ffffff;
+  --border-color: rgb(163, 163, 163);
+}
+
+/* Apply variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--border-color);
+  background: var(--section-bg);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--text-color);
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .details-container {
+  background: var(--section-bg);
+  border-color: var(--border-color);
+}
+
+[data-theme="dark"] .color-container {
+  background: var(--section-bg);
+}
+
+[data-theme="dark"] .btn-color-2 {
+  border-color: var(--text-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] a {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .section__text p,
+[data-theme="dark"] .section__pic-container p {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .experience-sub-title {
+  color: var(--text-color);
+}
+
+/* Invert colors for social icons in dark mode */
+[data-theme="dark"] .icon {
+  filter: invert(1);
+  transition: filter 0.3s ease;
+}
