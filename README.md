@@ -3,7 +3,10 @@
 This repository is my digital playground, showcasing my HTML and CSS skills for a personal portfolio website.
 
 -------------------------------------------------------------------------------------------------------------
-![](/assets/website.png)
+
+![](/assets/Website_light.png)
+![](/assets/Website_dark.png)
+
 -------------------------------------------------------------------------------------------------------------
 
 ## Overview
@@ -11,23 +14,37 @@ This repository is my digital playground, showcasing my HTML and CSS skills for 
 - 📄 **index.html**: The main script for my virtual self.
 - 🎨 **styles.css**: Stylesheet that paints the canvas with aesthetic brilliance.
 - 📱 **mediaqueries.css**: Styles for phones, because we're mobile-friendly!
-- 🧠 **script.js**: Empty for now, but who knows what ideas may spark here?
+- 🌗 **script.js**: Handles dark mode toggling and user preferences.
+
+## Features
+
+### 🌓 Dark Mode
+- Toggle between light and dark themes with a single click
+- Automatically saves your preference for future visits
+- Smooth transitions between modes
+- Enhanced readability in both themes
 
 ## Usage
 
-Dive into the adventure! This portfolio can be used by anyone to showcase thir projects!
+Dive into the adventure! This portfolio can be used by anyone to showcase their projects!
 
 ## How to Run
 
 1. **Clone this repository:**
    ```bash
-   [git clone https://github.com/yourusername/your-portfolio.git](https://github.com/imraghavojha/imraghavojha.github.io.git)
+   git clone https://github.com/imraghavojha/imraghavojha.github.io.git
+   ```
+
 2. **Navigate to the project directory:**
+   ```bash
+   cd imraghavojha.github.io-main
+   ```
 
-    ```bash
-      cd imraghavojha.github.io-main
+3. **Open index.html in your preferred browser or text editor.**
 
- 3. **Open index.html in your preferred browser or text editor.**
+4. **Explore and enjoy the experience! 🚀**
 
- 4. **Explore and enjoy the experience! 🚀**
+## Customization
 
+### Theme Preferences
+The dark mode toggle is located in the top-right corner of the page. Your selected theme preference will be automatically saved and applied on your next visit.
