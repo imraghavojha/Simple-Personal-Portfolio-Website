@@ -44,6 +44,10 @@ Dive into the adventure! This portfolio can be used by anyone to showcase their 
 
 4. **Explore and enjoy the experience! 🚀**
 
+
+#Future Additions
+wanted to add my real projects and a experience secion.
+
 ## Customization
 
 ### Theme Preferences
